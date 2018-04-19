@@ -1,0 +1,5 @@
+sqlplus sys as sysdba
+
+create user mhs identified by 123456;
+
+grant connect, resource, dba to mhs;
